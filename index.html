@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jenna Ortega • Fan Website</title>
+  <meta name="description" content="Fã-site não oficial de Jenna Ortega: filmografia, trajetória, prêmios, novidades e quiz.">
+  <meta name="theme-color" content="#0b0b0f">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="progresso" id="progresso"></div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">JENNA ORTEGA</div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#novidades">Novidades</a></li>
+        <li><a href="#filmes">Filmes</a></li>
+        <li><a href="#trajetoria">Trajetória</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#premios">Prêmios</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+      <button class="menu-mobile" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <a href="#sobre" class="scroll" aria-label="Rolar para baixo"><i class="fa-solid fa-angles-down"></i></a>
+    <div class="hero-content">
+      <p class="eyebrow">Fã-site não oficial</p>
+      <h1>JENNA ORTEGA</h1>
+      <p class="hero-subtitle">Conheça a trajetória de uma das atrizes mais talentosas da nova geração.</p>
+      <div class="buttons">
+        <a href="#sobre" class="btn1">Conhecer</a>
+        <a href="#galeria" class="btn2">Galeria</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="banner">
+    <div class="banner-left">
+      <h2>Bem-vindo ao maior Fan Site da Jenna Ortega</h2>
+      <p>O objetivo é apresentar informações, curiosidades, filmes, séries, prêmios e muito mais através de um visual moderno.</p>
+      <div class="banner-buttons">
+        <a href="#sobre" class="btn-banner primary">Explorar</a>
+        <a href="#galeria" class="btn-banner secondary">Galeria</a>
+      </div>
+    </div>
+    <div class="banner-right">
+      <img loading="lazy" src="imagens/j2.9.webp" alt="Banner Jenna Ortega">
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div class="titulo-secao">
+        <h2>Sobre Jenna Ortega</h2>
+        <p>Uma das atrizes mais talentosas da nova geração de Hollywood, conhecida por sua versatilidade, carisma e dedicação ao cinema.</p>
+      </div>
+
+      <div class="sobre-grid">
+        <div class="sobre-texto">
+          <h3>Quem é Jenna Ortega?</h3>
+          <p>Jenna Ortega é uma atriz que se destacou por combinar presença de cena, intensidade emocional e uma forte conexão com o público jovem. Seu trabalho ganhou notoriedade por trazer personalidade e autenticidade para personagens marcantes.</p>
+          <p>Ao longo da carreira, ela foi reconhecida por interpretar papéis que exigem energia, delicadeza e impacto visual. Esse mix ajudou a consolidar sua imagem como uma das protagonistas mais comentadas da nova geração.</p>
+          <p>Este espaço foi criado como uma página de fãs para destacar sua trajetória, seus trabalhos e a forma como ela se tornou referência para muitas pessoas apaixonadas por cinema e televisão.</p>
+        </div>
+
+        <div class="sobre-cards">
+          <div class="card-info"><span>🎬</span><h3>+20</h3><p>Filmes e Séries</p></div>
+          <div class="card-info"><span>🏆</span><h3 id="idade">23 anos</h3><p>Nascida em 27/09/2002</p></div>
+          <div class="card-info"><span>🌎</span><h3>Milhões</h3><p>de Fãs no Mundo</p></div>
+          <div class="card-info"><span>⭐</span><h3>Desde 2012</h3><p>Carreira Profissional</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="estatisticas">
+    <div class="container">
+      <div class="estatisticas-grid">
+        <div class="numero"><h2 class="contador" data-target="15">0</h2><p>Produções de Destaque</p></div>
+        <div class="numero"><h2 class="contador" data-inicio="2012">0</h2><p>Anos de Carreira</p></div>
+        <div class="numero"><h2 class="contador" data-target="27" data-sufixo="+">0</h2><p>Indicações</p></div>
+        <div class="numero"><h2 class="contador" data-target="11" data-sufixo="+">0</h2><p>Prêmios</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="novidades" class="novidades">
+    <div class="container">
+      <div class="titulo-secao">
+        <span class="section-tag">Novidades</span>
+        <h2>Em Cartaz &amp; Próximos Lançamentos</h2>
+        <p>Datas de lançamento podem mudar: confira sempre os canais oficiais.</p>
+      </div>
+      <div class="destaques">
+        <article class="destaque"><span class="badge">Em cartaz</span><h3>Klara and the Sun</h3><p>Ficção científica de Taika Waititi, baseada no romance de Kazuo Ishiguro. Jenna é Klara, uma Amiga Artificial. Estreia nos EUA em 23/10/2026.</p></article>
+        <article class="destaque"><span class="badge">13/11/2026</span><h3>The Great Beyond</h3><p>Aventura dirigida por J.J. Abrams, com Glen Powell e Samuel L. Jackson, nos cinemas IMAX.</p><p class="contagem" id="contagem" data-data="2026-11-13T00:00:00">—</p></article>
+        <article class="destaque"><span class="badge">Renovada</span><h3>Wednesday — 3ª temporada</h3><p>A Netflix confirmou a terceira temporada em 2025. A data de estreia ainda não foi divulgada.</p></article>
+        <article class="destaque"><span class="badge">Sundance 2026</span><h3>The Gallerist</h3><p>Comédia sombria de Cathy Yan, com Natalie Portman, exibida no festival Sundance em janeiro de 2026.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="filmes" class="filmografia">
+    <div class="container">
+      <div class="titulo-secao">
+        <h2>Filmes &amp; Séries</h2>
+        <p>Conheça os principais trabalhos de Jenna Ortega durante sua carreira.</p>
+      </div>
+
+      <div class="filtros">
+        <button class="ativo" data-filter="todos">Todos</button>
+        <button data-filter="filme">Filmes</button>
+        <button data-filter="serie">Séries</button>
+      </div>
+
+      <div class="pesquisa">
+        <input type="text" id="pesquisar" placeholder="Pesquisar um título...">
+      </div>
+
+      <div class="cards-filmes">
+        <div class="card-filme serie" data-ano="2022">
+          <div class="info">
+            <h3>Wednesday</h3>
+            <p><strong>Ano:</strong> 2022–2025</p>
+            <p><strong>Personagem:</strong> Wednesday Addams (e Goody)</p>
+            <p>Série da Netflix com direção de Tim Burton; Jenna também é produtora executiva.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2026">
+          <div class="info">
+            <h3>Klara and the Sun</h3>
+            <p><strong>Ano:</strong> 2026</p>
+            <p><strong>Personagem:</strong> Klara</p>
+            <p>Drama de ficção científica de Taika Waititi.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2025">
+          <div class="info">
+            <h3>Death of a Unicorn</h3>
+            <p><strong>Ano:</strong> 2025</p>
+            <p><strong>Personagem:</strong> Ridley</p>
+            <p>Comédia de terror com Paul Rudd.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2024">
+          <div class="info">
+            <h3>Beetlejuice Beetlejuice</h3>
+            <p><strong>Ano:</strong> 2024</p>
+            <p><strong>Personagem:</strong> Astrid Deetz</p>
+            <p>Sequência dirigida por Tim Burton; Astrid é filha de Lydia.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2024">
+          <div class="info">
+            <h3>Miller’s Girl</h3>
+            <p><strong>Ano:</strong> 2024</p>
+            <p><strong>Personagem:</strong> Cairo Sweet</p>
+            <p>Thriller dramático ao lado de Martin Freeman.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2023">
+          <div class="info">
+            <h3>Scream VI</h3>
+            <p><strong>Ano:</strong> 2023</p>
+            <p><strong>Personagem:</strong> Tara Carpenter</p>
+            <p>Ghostface chega a Nova York.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2023">
+          <div class="info">
+            <h3>Finestkind</h3>
+            <p><strong>Ano:</strong> 2023</p>
+            <p><strong>Personagem:</strong> Mabel</p>
+            <p>Drama policial ambientado em Boston.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2022">
+          <div class="info">
+            <h3>Scream</h3>
+            <p><strong>Ano:</strong> 2022</p>
+            <p><strong>Personagem:</strong> Tara Carpenter</p>
+            <p>Quinto filme da franquia.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2022">
+          <div class="info">
+            <h3>X</h3>
+            <p><strong>Ano:</strong> 2022</p>
+            <p><strong>Personagem:</strong> Lorraine</p>
+            <p>Terror de Ti West e um dos filmes mais bem avaliados dela.</p>
+          </div>
+        </div>
+
+        <div class="card-filme filme" data-ano="2021">
+          <div class="info">
+            <h3>The Fallout</h3>
+            <p><strong>Ano:</strong> 2021</p>
+            <p><strong>Personagem:</strong> Vada Cavell</p>
+            <p>Drama sobre as consequências de uma tragédia escolar.</p>
+          </div>
+        </div>
+
+        <div class="card-filme serie" data-ano="2019">
+          <div class="info">
+            <h3>You</h3>
+            <p><strong>Ano:</strong> 2019</p>
+            <p><strong>Personagem:</strong> Ellie Alves</p>
+            <p>Participação na 2ª temporada do thriller da Netflix.</p>
+          </div>
+        </div>
+
+        <div class="card-filme serie" data-ano="2016">
+          <div class="info">
+            <h3>Stuck in the Middle</h3>
+            <p><strong>Ano:</strong> 2016–2018</p>
+            <p><strong>Personagem:</strong> Harley Diaz</p>
+            <p>Série do Disney Channel; rendeu o Imagen Award de 2018.</p>
+          </div>
+        </div>
+        <p class="vazio" id="vazio" hidden>Nenhum título encontrado.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trajetoria" class="trajetoria">
+    <div class="container">
+      <div class="titulo-secao"><span class="section-tag">Trajetória</span><h2>Linha do Tempo</h2><p>Dos primeiros papéis ao estrelato global.</p></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="year">2012</span><div class="content"><h3>Início da carreira</h3><p>Começa a atuar ainda criança; em 2013 aparece em Iron Man 3 e Insidious: Chapter 2.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2016</span><div class="content"><h3>Disney Channel</h3><p>Protagoniza Stuck in the Middle (Harley Diaz) e vence o Imagen Award em 2018.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2019</span><div class="content"><h3>Papéis mais maduros</h3><p>Entra na 2ª temporada de You e passa a escolher personagens mais sombrios.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2021</span><div class="content"><h3>The Fallout</h3><p>Papel dramático de Vada Cavell, elogiado pela crítica.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2022</span><div class="content"><h3>Virada para o terror</h3><p>Scream, X e Wednesday no mesmo ano; a mídia a apelida de “scream queen” da Geração Z.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2023–24</span><div class="content"><h3>Consagração</h3><p>Indicada ao Globo de Ouro, SAG e Emmy; Scream VI e Beetlejuice Beetlejuice.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2025</span><div class="content"><h3>Atriz e produtora</h3><p>2ª temporada de Wednesday (como produtora executiva) e Death of a Unicorn.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2026</span><div class="content"><h3>Novos caminhos</h3><p>Klara and the Sun, The Gallerist e The Great Beyond.</p></div></div>
+      </div>
+      <div class="titulo-secao sub"><h2>Curiosidades</h2></div>
+      <div class="premios-grid curiosidades"><div class="premio-card reveal"><div class="premio-icon">🧛</div><h3>Duas em uma</h3><p>Em Wednesday, Jenna também interpreta Goody Addams, ancestral da protagonista.</p></div><div class="premio-card reveal"><div class="premio-icon">🦖</div><h3>Voz animada</h3><p>Dublou Brooklynn em Jurassic World: Camp Cretaceous.</p></div><div class="premio-card reveal"><div class="premio-icon">🎬</div><h3>Produtora</h3><p>Passou a atuar como produtora executiva de Wednesday na 2ª temporada.</p></div><div class="premio-card reveal"><div class="premio-icon">🏅</div><h3>Primeiro Globo</h3><p>Sua primeira indicação ao Globo de Ouro veio em 2023, por Wednesday.</p></div></div>
+    </div>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <div class="titulo-secao">
+        <span class="section-tag">Galeria</span>
+        <h2>Momentos Marcantes</h2>
+        <p>Uma seleção de fotos que representam diferentes fases da carreira de Jenna Ortega.</p>
+      </div>
+
+      <div class="grid-galeria">
+        <div class="foto"><img loading="lazy" src="imagens/Jenna.jpg" alt="Jenna Ortega em Wednesday"></div>
+        <div class="foto"><img loading="lazy" src="imagens/J.webp" alt="Jenna Ortega em Beetlejuice"></div>
+        <div class="foto"><img loading="lazy" src="imagens/j2.9.webp" alt="Jenna Ortega em Scream VI"></div>
+        <div class="foto"><img loading="lazy" src="imagens/je4.webp" alt="Jenna Ortega em You"></div>
+        <div class="foto"><img loading="lazy" src="imagens/jenna7.webp" alt="Jenna Ortega em The Fallout"></div>
+        <div class="foto"><img loading="lazy" src="imagens/jenn2.webp" alt="Jenna Ortega em Stuck in the Middle"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="premios" class="premios">
+    <div class="container">
+      <div class="titulo-secao">
+        <span class="section-tag">Reconhecimento</span>
+        <h2>Prêmios e Destaques</h2>
+        <p>A trajetória da atriz também é marcada por grande visibilidade, performances memoráveis e reconhecimento da crítica.</p>
+      </div>
+
+      <div class="premios-grid">
+        <div class="premio-card">
+          <div class="premio-icon">🎭</div>
+          <h3>Wednesday</h3>
+          <p>Protagonismo que elevou sua visibilidade global e consolidou seu lugar no mainstream.</p>
+        </div>
+        <div class="premio-card">
+          <div class="premio-icon">✨</div>
+          <h3>Critics' Choice</h3>
+          <p>Tem sido frequentemente destacada por performances que unem talento, presença e impacto emocional.</p>
+        </div>
+        <div class="premio-card">
+          <div class="premio-icon">🏆</div>
+          <h3>Forte presença</h3>
+          <p>O reconhecimento se mantém com projetos de destaque em filmes, séries e cultura pop contemporânea.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="premios lista-sec">
+    <div class="container">
+      <div class="titulo-secao"><h2>Vitórias &amp; Indicações</h2><p>Seleção dos principais reconhecimentos; a lista completa é maior.</p></div>
+      <div class="filtros" id="filtro-premios"><button class="ativo" data-p="todos">Todos</button><button data-p="v">Vitórias</button><button data-p="i">Indicações</button></div>
+      <ul class="lista-premios"><li class="v"><strong>2018</strong><span>Imagen Award — Melhor Jovem Ator de TV</span><em>Stuck in the Middle</em></li><li class="v"><strong>2022</strong><span>MTV Movie & TV — Performance Mais Assustada</span><em>Scream</em></li><li class="v"><strong>2023</strong><span>Critics’ Choice Super — Melhor Atriz em Série de Terror</span><em>Wednesday</em></li><li class="v"><strong>2023</strong><span>MTV Movie & TV — Melhor Performance em Série</span><em>Wednesday</em></li><li class="v"><strong>2023</strong><span>Kids’ Choice — Estrela Feminina de TV Favorita</span><em>Wednesday</em></li><li class="v"><strong>2024</strong><span>People’s Choice — Estrela de Cinema (Drama) do Ano</span><em>Scream VI</em></li><li class="i"><strong>2023 e 2026</strong><span>Globo de Ouro — Melhor Atriz em Série de Comédia/Musical</span><em>Wednesday</em></li><li class="i"><strong>2023</strong><span>SAG Awards — Atriz em Série de Comédia</span><em>Wednesday</em></li><li class="i"><strong>2024</strong><span>Primetime Emmy — Atriz Principal em Série de Comédia</span><em>Wednesday</em></li></ul>
+    </div>
+  </section>
+
+  <section id="quiz" class="quiz">
+    <div class="container">
+      <div class="titulo-secao"><span class="section-tag">Quiz</span><h2>Quanto você conhece a Jenna?</h2></div>
+      <div class="quiz-box" id="quiz-box"><div class="q"><h3>1. Em qual filme Jenna interpreta Astrid Deetz?</h3><button data-ok="1">Beetlejuice Beetlejuice</button><button data-ok="0">Scream VI</button><button data-ok="0">X</button></div><div class="q"><h3>2. Qual o nome da personagem dela em Scream?</h3><button data-ok="0">Sam Carpenter</button><button data-ok="1">Tara Carpenter</button><button data-ok="0">Lorraine</button></div><div class="q"><h3>3. Em que ano Jenna nasceu?</h3><button data-ok="0">2000</button><button data-ok="0">2001</button><button data-ok="1">2002</button></div><div class="q"><h3>4. Qual série do Disney Channel lhe rendeu o Imagen Award?</h3><button data-ok="1">Stuck in the Middle</button><button data-ok="0">You</button><button data-ok="0">Jane the Virgin</button></div><div class="q"><h3>5. Quem dirige The Great Beyond?</h3><button data-ok="0">Tim Burton</button><button data-ok="1">J.J. Abrams</button><button data-ok="0">Taika Waititi</button></div><p class="resultado" id="resultado" aria-live="polite"></p></div>
+      <div class="faq"><div class="titulo-secao sub"><h2>Perguntas Frequentes</h2></div><details><summary>Onde assistir Wednesday?</summary><p>Na Netflix. A 1ª temporada estreou em 2022 e a 2ª em duas partes, em agosto e setembro de 2025.</p></details><details><summary>Jenna Ortega está em Scream 7?</summary><p>Não. Ela não voltou para o filme, segundo a imprensa especializada.</p></details><details><summary>Quando é a 3ª temporada de Wednesday?</summary><p>A renovação foi confirmada, mas a data de estreia ainda não foi anunciada.</p></details></div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <div class="contato-box">
+        <div>
+          <h2>Fan page oficial do fã</h2>
+          <p>Página criada para celebrar a carreira, os trabalhos e o impacto de Jenna Ortega no cinema e na televisão.</p>
+        </div>
+        <a href="#home" class="btn1">Voltar ao topo</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="aviso-site">
+    <div class="container">
+      <h2>⚠️ Aviso Legal</h2>
+      <p>Este é um <strong>site não oficial</strong>, criado apenas como página de fãs para celebrar a trajetória de Jenna Ortega e compartilhar apreciação por seu trabalho.</p>
+      <p><strong>Não é afiliado, patrocinado, aprovado ou endossado</strong> por Jenna Ortega, seus representantes, produtores, distribuidoras, plataformas ou empresas relacionadas.</p>
+      <p>Todo o conteúdo foi organizado para fins informativos, culturais e de entretenimento, sem intenção comercial e sem finalidade de substituir materiais oficiais.</p>
+      <p class="aviso-final">Qualquer imagem, nome, marca, personagem ou material protegido por direitos autorais permanece propriedade de seus respectivos titulares. Este projeto é independente e respeita a existência de direitos de terceiros.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="ano-atual">2026</span> Jenna Ortega Fan Website</p>
+      <p>Feito com amor por "fãs".</p>
+    </div>
+  </footer>
+
+  <button class="topo" id="topo" aria-label="Voltar ao topo" hidden><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
